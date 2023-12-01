@@ -315,7 +315,7 @@ header .header-content h1{
 }
 }
 /* Mobile Responsive */
-@media (max-width: 528px) {
+@media (max-width: 600px) {
     #home .header-content h1 {
     font-size: 35px;
 } 
@@ -324,20 +324,23 @@ header .header-content h1{
     font-size: 16px;
 }
 header .header-content img {
-         margin-top: 2rem;
+    margin-top: 2rem;
 }
 #about h2,
 #skills h2,
 #contact h2 {
-font-size: 30px;
+    font-size: 30px;
 }
 #about .about-content .col-1 h3 {
-font-size: 20px;
+    font-size: 20px;
 }
 #skills .skills-content .row{
-grid-template-columns: 1fr;
+    grid-template-columns: 1fr;
 }
 #contact .row{  
     padding: 2rem 1rem;
+}
+    #contact .row{
+    grid-template-columns: 1fr;
 }
 }
